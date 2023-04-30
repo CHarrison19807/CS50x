@@ -50,7 +50,7 @@ int textFormula(string text)
     }
     double L = (((float) letters / (float) words) * 100.0);
     double S = (((float) sentences / (float) words) * 100.0);
-    index = 0.0588 * (((float) letters / (float) words) * 100.0) - 0.296 * (((float) sentences / (float) words) * 100.0) - 15.8;
+    index = 0.0588 * L - 0.296 * S * 100.0) - 15.8;
 
     index = round(index);
 
