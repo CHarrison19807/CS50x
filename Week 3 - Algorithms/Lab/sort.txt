@@ -1,0 +1,16 @@
+sort1 uses: Bubble sort
+
+How do you know?: .9 sorted 8 random 6 reversed
+Short best case, long worst case
+
+sort2 uses: Merge sort
+
+How do you know?: .9 sorted .9 random .9 reversed
+All are the same runtime, all are shorter than sort3
+
+sort3 uses: Selection sort
+
+How do you know?: 3.5 sorted 3.5 random 3.5 reversed
+All are same runtime, all are longer than sort2
+
+
